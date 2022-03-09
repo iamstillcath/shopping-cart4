@@ -1,0 +1,124 @@
+#h11{
+  max-width: 1000px;
+  margin-left: 15%;
+width: 100%;
+  font-family: Corsiva MT Std;
+}
+
+#h12{
+  max-width: 1000px;
+  margin-left:35%;
+  margin-top: -60px;
+  font-size: 30px;
+width: 100%;
+  font-family: Corsiva MT Std;
+}
+
+#container{
+    max-width:700px;
+    width: 100%;
+    font-size: 24px;
+    font-family: Corsiva MT Std;
+  display: flex;
+  padding-top: 20px;
+  
+}
+
+
+@font-face {
+    font-family: Corsiva MT Std;
+    src: url(CorsivaMTStd.otf)
+  }
+
+  .cart-img{
+      width: 55px;
+  }
+
+
+  .page-image{
+      max-width: 1000px;
+      width: 100%;
+     
+  }
+
+
+  #divWrap{
+   display:grid;
+   grid-template-columns: repeat(3, 2fr);
+    gap:50px;
+    margin-left: 60px;
+    align-items: center;
+  }
+  button{
+  max-width: 1000px;
+  width: 100px;
+  }
+
+
+  h6{
+   max-width: 1000px;
+   width: 68%;
+    display: flex;
+  /* justify-content: space-between; */
+  gap:100%
+  }
+
+  #cart-wrapper{
+    margin-left: 10%;
+    padding-left: 30%;
+    visibility: hidden;
+  }
+
+  .three{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    letter-spacing: 15px;
+    margin-left: 5px;
+  }
+
+  .table-body>tr{
+    font-size: 22px;
+   word-spacing: 20px;
+    max-width: 1000px;
+  
+
+  }
+
+  #display{
+    font-size: 22px;
+    word-spacing: 20px;
+     border-radius: 3px;
+     border: 4px dotted lightgrey;
+     max-width: 1000px;
+     width: auto;
+  
+    
+ 
+  }
+
+  #clear{
+    background-color: red;
+    font-size: 14px;
+    max-width: 1000px;
+
+  }
+
+ button{
+    background-color: rgb(167, 167, 230)
+  }
+
+  #div1{
+    border-radius: 3px;
+    border: 4px dotted lightgray;
+    align-items: center;
+    width: 120%;
+    max-width: 1000px;
+    height: 96%;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   
+  }
+
+ 
